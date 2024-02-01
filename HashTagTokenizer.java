@@ -31,7 +31,7 @@ public class HashTagTokenizer {
 		// Your code here
 		for(int i = 0 ; i <dictionary.length ; i ++)
 		{
-			if(dictionary[i] == word)
+			if(dictionary[i].equals(word))
 				return true ;
 		}
 		return false;
